@@ -24,8 +24,24 @@ let suraj={
         state:'Bihar'
     },
 
+    //sayHi is the key
     sayHi:function(){
         console.log("Hello Suraj")
     }
 
 }
+// Dot Notation
+console.log("Dot Notation")
+
+console.log(car)
+console.log(suraj.name)
+console.log(suraj.lastname)
+console.log(suraj.address)
+console.log(suraj.address.city)
+
+suraj.sayHi()
+
+//Bracket Notation
+console.log("Bracket Notation")
+
+console.log(suraj['name'])
