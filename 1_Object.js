@@ -45,3 +45,9 @@ suraj.sayHi()
 console.log("Bracket Notation")
 
 console.log(suraj['name'])
+
+// for in loop for objects
+
+for(let key in car){
+    console.log('key:' , key , "value:" , car[key])
+}
