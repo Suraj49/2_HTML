@@ -12,7 +12,8 @@ let car={
     brand : 'Mahindra',
     topSpeed : '155 Kmph',
     price : '13.17 lakh',
-    color : 'Red'
+    color : 'Red',
+    is4x4 :'true'
 }
 let suraj={
     name:'Suraj',
@@ -51,3 +52,13 @@ console.log(suraj['name'])
 for(let key in car){
     console.log('key:' , key , "value:" , car[key])
 }
+
+
+car.is4x4=false
+console.log(car.is4x4)
+
+car.is2x2=false
+console.log(car)
+
+delete car.is2x2
+console.log(car)
