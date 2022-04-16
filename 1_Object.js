@@ -53,12 +53,14 @@ for(let key in car){
     console.log('key:' , key , "value:" , car[key])
 }
 
-
+//update in key value
 car.is4x4=false
 console.log(car.is4x4)
 
+//add new key in object
 car.is2x2=false
 console.log(car)
 
+//delete key in object
 delete car.is2x2
 console.log(car)
