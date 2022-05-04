@@ -15,3 +15,7 @@ cp.execSync('code')
 
 console.log('Vs code opened')
 
+let output=cp.execSync('node Test.js')
+
+console.log('Output is  ' + output)
+
