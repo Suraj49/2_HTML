@@ -1,1 +1,8 @@
 Hello im file 2more data
+
+fileSystem.mkdirSync('myDirectory')
+console.log('myDirectory Created')
+
+// //delete myDirectory
+fileSystem.rmdirSync('myDirectory')
+console.log('myDirectory deleted')
