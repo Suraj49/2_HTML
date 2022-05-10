@@ -1,0 +1,1 @@
+const myCalculator=require('./calculator')
